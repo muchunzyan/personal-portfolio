@@ -1,0 +1,28 @@
+:root {
+    --bg-color: #F3F1EC;
+    --text-color-primary: #171717;
+    --text-color-secondary: #77736C;
+    --line-color: #D8D4CC;
+    --accent-color: #315C45;
+
+    --font-family-primary: "Manrope";
+    --font-family-accent: "IBM Plex Mono", monospace, sans-serif;
+
+    --font-size-headline: 96px;
+    --font-size-accent-header: 52px;
+    --font-size-header: 40px;
+    --font-size-project-name: 26px;
+    --font-size-hero: 21px;
+    --font-size-base: 17px;
+    --font-size-secondary: 14px;
+    --font-size-tech: 12px;
+
+    --font-weight-headline: 700;
+    --font-weight-accent-header: 700;
+    --font-weight-header: 600;
+    --font-weight-project-name: 600;
+    --font-weight-hero: 500;
+    --font-weight-base: 400;
+    --font-weight-secondary: 400;
+    --font-weight-tech: 400;
+}

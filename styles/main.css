@@ -1,0 +1,79 @@
+@import "variables.css";
+@import "fonts.css";
+
+/* Используются иконки с сайта https://lucide.dev/icons */
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+}
+
+.body {
+    font-family: var(--font-family-primary), sans-serif;
+    font-size: var(--font-size-base);
+    color: var(--text-color-primary);
+    background-color: var(--bg-color);
+    padding: 0 30px;
+}
+
+.header {
+    border-bottom: 1px solid var(--line-color);
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 0;
+}
+
+.initials {
+    font-size: var(--font-size-hero);
+}
+
+.initials:hover {
+    color: var(--accent-color);}
+
+.menu {
+    display: flex;
+    gap: 0 20px;
+}
+
+.menu__item:hover {
+    color: var(--accent-color);
+}
+
+.download-resume {
+    display: flex;
+    align-items: center;
+    gap: 0 10px;
+    background-color: var(--accent-color);
+    border: 1px solid var(--accent-color);
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.download-resume:hover {
+    background-color: var(--bg-color);
+
+    .download-resume__text {
+        color: var(--accent-color);
+    }
+
+    .download-resume__icon {
+        color: var(--accent-color);
+    }
+}
+
+.download-resume__text {
+    color: var(--bg-color);
+    line-height: 1;
+}
+
+.download-resume__icon {
+    color: var(--bg-color);
+    width: 18px;
+}
